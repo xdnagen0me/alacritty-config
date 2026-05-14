@@ -1,0 +1,56 @@
+[general]
+import = [
+    "~/AppData/Roaming/alacritty/themes/themes/gruvbox_dark.toml"
+]
+
+[bell]
+animation = "EaseOutExpo"
+
+[colors.cursor]
+cursor = "#11a8cd"
+
+[colors.primary]
+background = "#282923"
+foreground = "#E8EAD7"
+
+[cursor]
+blink_interval = 500
+style = "Beam"
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 16.0
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.normal]
+family = "Terminess Nerd Font"
+style = "Bold"
+
+[font.offset]
+x = 0
+y = 0
+
+[[keyboard.bindings]]
+action = "CreateNewWindow"
+key = "N"
+mods = "Control"
+
+
+[window]
+dynamic_padding = false
+opacity = 0.93
+
+[window.dimensions]
+columns = 120
+lines = 30
+
+[window.padding]
+x = 20
+y = 10
+
+[keyboard]
